@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Thiệp Mời Lễ Tốt Nghiệp 🎓</title>
+
+<link rel="stylesheet" href="./style/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<h1 class="title">Graduation Invitation 🎓</h1>
+
+<!-- guest name input -->
+<div class="name-input">
+	<input id="guestName" type="text" placeholder="Nhập tên bạn (ví dụ: Nguyễn Văn A)" aria-label="Tên khách mời">
+	<button id="setName">Gửi tên</button>
+	<p class="hint">Tên sẽ xuất hiện trong lời mời.</p>
+</div>
+
+
+<div class="card">
+
+<img src="./style/huong.jpg" class="avatar">
+
+<div class="pages">
+
+<p class="page active guest">Trân trọng kính mời <strong><span id="guestDisplay">Bạn</span></strong></p>
+
+<p class="page">Sau nhiều năm...</p>
+
+<p class="page">vật lộn với deadline</p>
+
+<p class="page">thức khuya làm bài</p>
+
+<p class="page">và cầu nguyện trước mỗi kỳ thi 🙏</p>
+
+<p class="page highlight">🎉 Một phép màu đã xảy ra 🎉</p>
+
+<p class="page">Sinh viên</p>
+
+<p class="page name">Lê Thị Thanh Hương</p>
+
+<p class="page">đã chính thức</p>
+
+<p class="page highlight">🎓 TỐT NGHIỆP 🎓</p>
+
+<p class="page">khỏi cảnh</p>
+
+<p class="page">thi lại, học lại, và ngủ gật trong lớp 😆</p>
+
+<p class="page">Nhân dịp trọng đại này</p>
+
+<p class="page">mình trân trọng mời bạn đến tham dự</p>
+
+<p class="page">để chứng kiến khoảnh khắc</p>
+
+<p class="page highlight">"sống sót sau đại học"</p>
+
+<p class="page">📅 Thời gian: 08:00 - 20/05/2026</p>
+
+<p class="page">📍 Địa điểm: Hội trường Trường Đại học</p>
+
+<p class="page">Sự xuất hiện của bạn</p>
+
+<p class="page">sẽ giúp buổi lễ thêm vui</p>
+
+<p class="page">và giúp mình có thêm người</p>
+
+<p class="page highlight">để chụp hình sống ảo 📸</p>
+
+<p class="page">Nếu bạn không đến...</p>
+
+<p class="page">mình vẫn tốt nghiệp 😆</p>
+
+<p class="page">nhưng sẽ buồn 5 phút đó nha!</p>
+
+<p class="page highlight">Hẹn gặp bạn tại lễ tốt nghiệp 🎓</p>
+
+</div>
+</div>
+
+<div class="buttons">
+
+<button id="open">Mở Thiệp</button>
+
+<button id="reset">Đóng</button>
+
+</div>
+
+<!-- extra controls -->
+<div class="party-controls">
+	<button id="celebrate">Tiệc Vui! 🎊</button>
+	<button id="musicToggle">Tắt/ Bật Nhạc</button>
+    <button id="editName" style="display:none">Chỉnh sửa tên</button>
+</div>
+
+</div>
+
+<canvas id="fireworks"></canvas>
+<canvas id="confetti"></canvas>
+
+<div class="hats">
+<div class="hat"></div>
+<div class="hat"></div>
+<div class="hat"></div>
+</div>
+
+<audio id="music" loop>
+<source src="./style/Tuổi Thanh Xuân.mp3">
+</audio>
+
+<script src="./style/script.js"></script>
+
+</body>
+</html>
